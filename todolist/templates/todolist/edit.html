@@ -1,0 +1,17 @@
+{% extends 'todolist/base.html' %}
+{% load staticfiles %}
+{% block css %}{%static 'todolist/css/edit.css' %}{% endblock css %}
+{% block 标题名 %}
+  编辑页面
+{% endblock 标题名 %}
+{% block 主体 %}
+<br>
+<form id="form-edit">
+    <div>
+        <label for="editodo"></label>
+        <input class="form-control form-control-lg" id='edittodo' type="text" value="请输入事务">
+    </div>
+    <br>
+    <button type="button" class="btn btn-primary btn-lg btn-block">提交</button>
+</form>
+{% endblock 主体 %}

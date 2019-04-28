@@ -1,0 +1,7 @@
+#noline>tr>td>a:hover{
+    text-decoration-line: none;
+}
+
+#withline{
+    text-decoration-line: line-through;
+}
